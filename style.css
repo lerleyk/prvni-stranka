@@ -2,6 +2,7 @@
 :root{
     font-size: 20px;
     --color:rgb(0, 0, 0);
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -61,4 +62,8 @@ nav > ul {
 footer {
     background: black;
     padding: 3rem 1rem;
+}
+
+footer > p {
+    text-align: center;
 }
